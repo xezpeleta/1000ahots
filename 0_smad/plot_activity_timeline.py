@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import sys
 import numpy as np
 
-def plot_timeline(csv_file, output_file):
+def plot_timeline(csv_file, output_file, filtered_csv=None):
     # Read the CSV file
     df = pd.read_csv(csv_file)
     
@@ -21,6 +21,13 @@ def plot_timeline(csv_file, output_file):
     
     # Create a figure and axis
     fig, ax = plt.subplots()
+
+    # If filtered CSV is provided, add highlight rectangles
+    if filtered_csv:
+        filtered_df = pd.read_csv(filtered_csv)
+        for _, row in filtered_df.iterrows():
+            ax.axvspan(row['start_time'], row['end_time'], 
+                      alpha=0.2, color='lightgreen')
     
     # Plot smooth curves
     ax.plot(time_points, music_smooth, color='blue', label='Music')
@@ -38,10 +45,12 @@ def plot_timeline(csv_file, output_file):
     plt.savefig(output_file)
 
 if __name__ == "__main__":
-    if len(sys.argv) != 3:
-        print("Usage: python script.py <csv_file> <output_file>")
+    if len(sys.argv) not in [3, 4]:
+        print("Usage: python script.py <csv_file> <output_file> [filtered_csv]")
         sys.exit(1)
     
     csv_file = sys.argv[1]
     output_file = sys.argv[2]
-    plot_timeline(csv_file, output_file)
+    filtered_csv = sys.argv[3] if len(sys.argv) == 4 else None
+    
+    plot_timeline(csv_file, output_file, filtered_csv)

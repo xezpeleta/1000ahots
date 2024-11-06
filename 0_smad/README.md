@@ -49,6 +49,7 @@ The output will be a plot like the following:
 
 ![Cookie eta Kafea, a tech podcast](media/example2.png)
 
+
 ### Get filtered segments
 
 If we only want to keep the segments with a high probability of speech, we can use the following command to filter the CSV file:
@@ -65,6 +66,20 @@ Parameters:
 - `--min_duration`: Minimum duration of a segment to keep it.
 
 
+#### Plot filtered segments
+
+Using the same plot command as before, but adding the filtered CSV file as the last argument, we can plot the filtered segments:
+
+```bash
+python3 plot_activity_timeline.py activity.csv media/example_speech.png activity_filtered.csv
+```
+
+The output will be a plot like the following:
+
+![Kantu Kontari, a music radio show](media/example_speech.png)
+
+![Cookie eta Kafea, a tech podcast](media/example2_speech.png)
+
 
 ### Remove music segments
 
@@ -79,6 +94,9 @@ Parameters:
 - `--after`: Time to keep after the segment.
 - `--min-silence-len`: Minimum silence length in ms to split the audio file (default 700ms)
 - `--silence-threshold`: Silence threshold in dB (default -40dB)
+
+
+
 
 
 ## References
