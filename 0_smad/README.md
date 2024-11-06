@@ -45,7 +45,9 @@ python3 plot_activity_timeline.py activity.csv media/example.png
 
 The output will be a plot like the following:
 
-![Activity plot](media/example.png)
+![Kantu Kontari, a music radio show](media/example.png)
+
+![Cookie eta Kafea, a tech podcast](media/example2.png)
 
 ### Get filtered segments
 
