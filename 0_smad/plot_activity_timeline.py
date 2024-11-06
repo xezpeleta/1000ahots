@@ -1,30 +1,21 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import sys
-import numpy as np
 
 def plot_timeline(csv_file, output_file):
     # Read the CSV file
     df = pd.read_csv(csv_file)
     
-    # Create time points for interpolation
-    time_points = np.linspace(df['start_time_s'].min(), df['end_time_s'].max(), 1000)
-    
-    # Create arrays for music and speech probabilities
-    music_interp = np.interp(time_points, df['start_time_s'], df['music_prob'])
-    speech_interp = np.interp(time_points, df['start_time_s'], df['speech_prob'])
-    
-    # Apply smoothing using rolling average
-    window_size = 31  # Adjust this value to control smoothing amount
-    music_smooth = pd.Series(music_interp).rolling(window=window_size, center=True).mean()
-    speech_smooth = pd.Series(speech_interp).rolling(window=window_size, center=True).mean()
-    
     # Create a figure and axis
     fig, ax = plt.subplots()
     
-    # Plot smooth curves
-    ax.plot(time_points, music_smooth, color='blue', label='Music')
-    ax.plot(time_points, speech_smooth, color='red', label='Speech')
+    # Plot music probability
+    for index, row in df.iterrows():
+        ax.plot([row['start_time_s'], row['end_time_s']], [row['music_prob'], row['music_prob']], color='blue', label='Music' if index == 0 else "")
+    
+    # Plot speech probability
+    for index, row in df.iterrows():
+        ax.plot([row['start_time_s'], row['end_time_s']], [row['speech_prob'], row['speech_prob']], color='red', label='Speech' if index == 0 else "")
     
     # Add labels and title
     ax.set_xlabel('Time (s)')
