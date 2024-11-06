@@ -71,12 +71,14 @@ Parameters:
 If we want to remove the music segments from the audio file, we can use the following command:
 
 ```bash
-python3 remove_music_parts.py myfile.mp3 myfile_no_music.mp3 activity_no_music.csv --before 0.5 --after 0.5
+python3 remove_music_segments.py myfile.mp3 myfile_no_music.mp3 activity_no_music.csv --before 0.5 --after 0.5 --min-silence-len 700  --silence-thresh -50
 ```
 
 Parameters:
 - `--before`: Time to keep before the segment.
 - `--after`: Time to keep after the segment.
+- `--min-silence-len`: Minimum silence length in ms to split the audio file (default 700ms)
+- `--silence-threshold`: Silence threshold in dB (default -40dB)
 
 
 ## References
