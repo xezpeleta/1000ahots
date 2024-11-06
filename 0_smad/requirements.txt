@@ -6,3 +6,6 @@ numpy
 librosa
 pyyaml
 pytorch-lightning
+pandas
+matplotlib
+pydub

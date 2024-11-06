@@ -1,56 +1,104 @@
 """
-The following script removes the music segments from an audio file
+The following script extracts speech segments from an audio file using a CSV file containing speech segment timestamps,
+then splits them further based on silence detection
 """
 
 import argparse
 import subprocess
 import pandas as pd
+import os
+import tempfile
+from pydub import AudioSegment
+from pydub.silence import split_on_silence
 
-"""
-Remove segments from an audio file based on start and end times,
-using ffmpeg with subprocess.
-"""
-def remove_segments(input_file, output_file, start_times, end_times, before, after):
-    # Create a list of start and end time pairs with margins
-    segments = list(zip(start_times - before, end_times + after))
-    
-    # Generate the filter string for ffmpeg
-    filter_str = ""
-    for i, (start, end) in enumerate(segments):
-        filter_str += f"[0:a]atrim=start={start}:end={end},asetpts=PTS-STARTPTS[a{i}];"
-    for i in range(len(segments)):
-        filter_str += f"[a{i}]"
-    filter_str += f"concat=n={len(segments)}:v=0:a=1[outa]"
-    
-    # Run ffmpeg to remove the segments
-    cmd = [
-        "ffmpeg",
-        "-i", input_file,
-        "-filter_complex", filter_str,
-        "-map", "[outa]",
-        output_file
-    ]
-    subprocess.run(cmd)
+def split_on_silence_threshold(audio_segment, min_silence_len, silence_thresh):
+    """
+    Split an audio segment on silence using pydub
+    """
+    chunks = split_on_silence(
+        audio_segment,
+        min_silence_len=min_silence_len,
+        silence_thresh=silence_thresh,
+        keep_silence=True
+    )
+    return chunks
 
-def remove_music_segments(input_file, output_file, music_segments_file, before, after):
-    # Load music segments from CSV
-    music_segments = pd.read_csv(music_segments_file)
+def extract_speech_segments(input_file, output_dir, speech_segments_file, before, after, min_silence_len, silence_thresh):
+    """
+    Extract speech segments and split them further based on silence detection
+    """
+    # Load speech segments from CSV
+    speech_segments = pd.read_csv(speech_segments_file)
     
-    # Remove music segments from the audio file
-    remove_segments(input_file, output_file, music_segments['start_time'], music_segments['end_time'], before, after)
-    print(f"Music segments removed and saved to {output_file}")
+    # Create output directory if it doesn't exist
+    os.makedirs(output_dir, exist_ok=True)
+    
+    # Get base filename without extension
+    base_name = os.path.splitext(os.path.basename(input_file))[0]
+    
+    # Get audio duration
+    duration = float(subprocess.check_output([
+        'ffprobe', '-v', 'quiet', '-show_entries', 'format=duration',
+        '-of', 'default=noprint_wrappers=1:nokey=1', input_file
+    ]).decode().strip())
+    
+    # Extract each speech segment
+    segment_counter = 0
+    with tempfile.TemporaryDirectory() as temp_dir:
+        for i, row in speech_segments.iterrows():
+            temp_file = os.path.join(temp_dir, f"temp_segment_{i}.wav")
+            
+            # Adjust segment times with margins
+            adj_start = max(0, row['start_time'] - before)
+            adj_end = min(duration, row['end_time'] + after)
+            
+            # Extract segment to temporary file
+            cmd = [
+                "ffmpeg",
+                "-i", input_file,
+                "-ss", str(adj_start),
+                "-to", str(adj_end),
+                "-c", "copy",
+                temp_file
+            ]
+            subprocess.run(cmd)
+            
+            # Load temporary file with pydub
+            audio = AudioSegment.from_wav(temp_file)
+            
+            # Split on silence
+            chunks = split_on_silence_threshold(audio, min_silence_len, silence_thresh)
+            
+            # Save chunks
+            for chunk in chunks:
+                output_file = os.path.join(output_dir, f"{base_name}_speech_{segment_counter:03d}.wav")
+                chunk.export(output_file, format="wav")
+                print(f"Created speech segment: {output_file}")
+                segment_counter += 1
 
 if __name__ == "__main__":
     # Set up argument parser
-    parser = argparse.ArgumentParser(description="Remove music segments from audio file.")
+    parser = argparse.ArgumentParser(description="Extract speech segments from audio file.")
     parser.add_argument("input", help="Path to the input audio file.")
-    parser.add_argument("output", help="Path to the output audio file without music.")
-    parser.add_argument("music_segments", help="Path to the CSV file with music segments to remove.")
+    parser.add_argument("output_dir", help="Directory to save speech segment files.")
+    parser.add_argument("speech_segments", help="Path to the CSV file with speech segments data.")
     parser.add_argument("--before", type=float, default=0, help="Margin time in seconds to add before each segment.")
     parser.add_argument("--after", type=float, default=0, help="Margin time in seconds to add after each segment.")
+    parser.add_argument("--min-silence-len", type=int, default=500,
+                      help="Minimum length of silence (in ms) to split on.")
+    parser.add_argument("--silence-thresh", type=int, default=-40,
+                      help="Silence threshold in dBFS.")
 
     # Parse arguments
     args = parser.parse_args()
 
-    # Run the music removal function
-    remove_music_segments(args.input, args.output, args.music_segments, args.before, args.after)
+    # Run the speech extraction function
+    extract_speech_segments(
+        args.input, 
+        args.output_dir, 
+        args.speech_segments, 
+        args.before, 
+        args.after,
+        args.min_silence_len,
+        args.silence_thresh
+    )
