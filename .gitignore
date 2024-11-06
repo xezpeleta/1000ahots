@@ -1,3 +1,7 @@
-.venv
-__pycache__
-
+.venv/
+examples/
+output/
+*.wav
+*.mp3
+*.csv
+__pycache__/
