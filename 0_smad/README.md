@@ -1,6 +1,6 @@
 # Speech and music activity detection (SMAD)
 
-This is a simple example of how to use an SMAD model trained with TVSM dataset, in order to detect speech and music in an audio file.
+This repository contains scripts to detect clean speech from audio files, with no music nor background noise.
 
 ## Installation
 
@@ -10,7 +10,9 @@ Install the required dependencies:
 pip install -r requirements.txt
 ```
 
-## Usage
+## SMAD model inference
+
+In order to detect speech and music in an audio file, we can use [a SMAD model](https://github.com/biboamy/TVSM-dataset#inference-code) trained with TVSM dataset.
 
 The following command will generate a CSV file with the probabilities of speech and music in the audio file:
 
@@ -35,7 +37,7 @@ start_time_s,end_time_s,music_prob,speech_prob
 0.96,1.1520000000000001,1.0,0.04
 ```
 
-### Plot probabilities
+## Plot probabilities
 
 If we want to plot the probabilities of speech and music, we can use the following command:
 
@@ -50,7 +52,7 @@ The output will be a plot like the following:
 ![Cookie eta Kafea, a tech podcast](media/example2.png)
 
 
-### Get filtered segments
+## Get filtered segments
 
 If we only want to keep the segments with a high probability of speech, we can use the following command to filter the CSV file:
 
@@ -66,7 +68,7 @@ Parameters:
 - `--min_duration`: Minimum duration of a segment to keep it.
 
 
-#### Plot filtered segments
+### Plot filtered segments
 
 Using the same plot command as before, but adding the filtered CSV file as the last argument, we can plot the filtered segments:
 
@@ -81,7 +83,7 @@ The output will be a plot like the following:
 ![Cookie eta Kafea, a tech podcast](media/example2_speech.png)
 
 
-### Remove music segments
+## Remove music segments
 
 If we want to remove the music segments from the audio file, we can use the following command:
 
