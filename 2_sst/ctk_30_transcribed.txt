@@ -1,0 +1,97 @@
+0.00, 12.00, Zuhazara, bideojokoen zalea? Ni zalea zalea ez, eta egia esaten nahi badimadezu, ez daukat ideia handik gai honen inguruan.
+12.00, 33.00, Aber ni frikia ez naiz, baina jolastenet, jolastenet eta ondo pasatzenet. Beste kontua da neringuruan, euskadan lagunekin eta familiako batzuekin alderatuta batere frikia ze... ostras, bada pasioa sorrarazten duen gai bat bideojokoena.
+33.00, 38.64, Eta nik uste gaina batzuei pasio baino gehiore enganxa baiten diela ez.
+38.64, 40.64,  Baizugarri, hortazitza egingo dago, ez?
+40.64, 45.76,  Ez dakit gogoratzen zer antzin izan zen jokatu denoen azkeneko bideojokoa?
+45.76, 48.16,  Ez dakit esaten.
+48.16, 49.12,  Ez zegoatzen?
+49.12, 50.08,  Ez naiz gogoratzen.
+50.08, 53.48,  Baino Nintendo deseen, Game Boy batean...
+53.48, 62.28,  Nik etxe neukituten kontsolado horrelako joko bakarrak izan die Nintendoa eta guia, hortik aurrera ez detin.
+62.28, 64.68,  Nintendoa, baino ze nintendo?
+64.68, 67.28,  Nintendo dese, uste kamaraz ukena.
+67.28, 73.08,  Jo, egia izango da, ez dela oso aditua bideojokoetan, ahia ama.
+73.08, 79.72, Eta gero cookie batzuk erabaziko ditugu hemungo supermerkatuan?
+79.72, 81.72,  Ni aukeran kafea.
+81.72, 85.72,  Ostras, cookieak eta kafea ze hona kongoa.
+85.72, 92.32,  Azken hamarkadetan sara egia da bizitza, gizartea eta gure kontsumiturak asko aldatu direla, baina,
+92.32, 109.92, Bilatukoen bideojokoen industria eta bideojokoetara jokatzekoerak sekulako eboluzioa izan du, eta hortaz arituko gara gaur, oraindik ere cookie eta kafean jorratu eztegun gai bat delako bideojokoena eta kontuena izan behar dugu teknologiaren sektorean oso industria potentea dela du.
+109.92, 113.12, Bada datu bat nahi dexente harritu baten akasuontanez.
+113.12, 121.12, Irakurri det, bideojokoen industriak musikak eta zinemak batera baino diru-sarreragileago sortzen ditula.
+121.12, 130.12,  Ostraz, oza, zinemaren industria eta musikaren industriak irabazten dutena batuta, ez dira iristen bideojokoen industriak lortzen duena era?
+130.12, 133.12,  Bai, hori da. Osa generatzen da askozte diru gehio.
+133.12, 134.12,  Ostras.
+134.12, 140.12,  Eta, bonoba, irakurri dute bai datutan generatzen dola entretenimenduan ehuneko berrogeita bi bat.
+140.12, 144.12,  Entretenimenduaren sektorean bideo-jokoak dira ehuneko berrogeita bia.
+144.12, 145.12,  Hori da.
+145.12, 146.12,  Wau.
+146.12, 147.12,  Osa ia-ia erdia.
+147.12, 162.12, Egia da nik behintzat inguruan jende asko daukat, oso zaletua, oso apasionatua esango dugu bideojokoena, baina hainbesterainokoa izango zenik ere, banekienik, zuk zure inguruan...
+162.12, 169.12, Zerazki ingurun badazautzen den jendea bideojokoetan ibiltzen dena, baina ez gehiegi.
+169.12, 176.12,  Eta egia da enuke esango horrenbeste diru-sortzen den industria bat danik, baina aldiberen enago harritzen.
+176.12, 191.12, Zentzuten dena gaur egun ez, oza, zenbat jende enganxatzen den bideojokuta, zenbat jolasten don, zenbat joku berri sortzen den urteroez, eta zeindarra hartzen nahidan, egia esan, harritu ez nau harritu datuak.
+191.12, 201.12, Baipasada bada, egia da lehen agian entretenimendurako tresna edo gailu teknologiko gutxiago genituela, eta gaur egun, ba, eskaintza zabalagoa dela, baino e-sportsak, twitch plataformak berak, ibaianos, auro play, bono, gamere, gesta, streamerrek egiten duten promozio eta publizioak guztiak gaur egun eraman du sektorea, ba, tope-topera, etaZeren fisikotik digital edo birtualera dena, zelen bai hardware-ra behar-beharrezkoa zen fisikoki gaituren bat gure etxean gure telebista ondoan eukitzea.
+201.12, 210.12,  Bai, baino gaur egun bai ikusten dala nola jendek erabiltzen don edo pantaila jokatzeko gaina askeoten die aurikularrekinez da dena online.
+210.12, 221.12, Zer lehen datunara bera bat, merkatua iristen dien jokutako ehuneko hamarra bakarrik da fisikoa, gainontzeko guztia, hau da ehuneko laurogeita hamarra joku digitalak die.
+221.12, 228.72,  Kontsolak ere eta pixkanaka-pixkanaka ari dira ari dira ixten. Ez dituztelako jokoak era fisikoan saltzen.
+228.72, 232.20,  Ez da saltzen, ez die sortzen, geho, ordu nazkenen.
+232.20, 234.20,  Ja utzi dute sortzera ere ez.
+234.20, 249.20, Hori da, jendek ez ditu joku horie bihatzen, azkenen ehuneko hamarra fisikoa baldima da eta ehuneko laurogeita hamarra digitala, nu neon behar da eskaintza handigoa, eta ze jokuneko ditu jendek ez, azkenen ehuneko laurogeita hamar hortan askoz eskaintza zabalagoa ematen da.
+249.20, 257.56, Nik daukate referentzia moduan neren lehengusua, ohita hamasei urte dauzka, baina da sekulako frikia eta...
+257.56, 265.04,  orain hitz egingo dugu multiplataformaz zerbitzu berri sortu diren azken urteoetan, baina...
+265.04, 274.80,  berak adibidez, nahiz eta dena hodelean jokatzen duen gustoko dituen bideojokoiek bai erosten dituera fisikoan salgai baldin badaude...
+274.80, 276.08, Hori aukera ukitez.
+276.08, 280.08,  Bai, kolekzionismo moduan ukitzeko baldan eta nik hori egin izan da.
+280.08, 291.08,  Liburutagira joan liburu bat irakurri eta gustuko bat dut, ondoren elkartenda batera edo gerturatu eta fisikoan erosi, nahi dudan, alakostak etxean...
+291.08, 299.80, Bai, ulertzen deet kontzeptua, apixkat analogikora joez, gero beti bueltatzen iegauzauek gaur egun ere kamera analogiko modan jarri diez.
+299.80, 301.08,  Bai, bai, bai, bai.
+301.08, 310.08, Baina, justo kasuontan, komentatzen nahi genauez, fisikoti digitalerako aldaketaontan, bi milata hemezortzin, gutxi gorabehera, imajino zeroen hirureun bat joku fisikon, hirureun daugeita bat, bi milata hogeita baten joku jaitsizien ehuneko hogeita hamar bat, ordun pasazan hirureun daugeita bat joku fisiko-ekitzetikan berrehun daugeita sei j Jaisten doa eta hori pasa baldima da, bi milata menzortzitik, bi milata goita batera, bazdati imajinau nahiz epazako dan, bi milata menzortzitikan, bi milata goita marrera.
+310.08, 319.52, Klaro, imajinatu, lehen egun jokotatik ehunak dendetan genuzkan erosgai eta gaur egun egun jokotatik hamar bakarrik.
+319.52, 325.56,  Aipatu dugu erosi egitezkeela geroz eta gehiago ixten ari diren dendatxo hauetan.
+325.56, 336.56, Kontsolakada ere zara momentuz behintzat jarraitzen dute, existitzen hardware hori badukagu, playstationak, xboxak, nintendo switchak...
+336.56, 343.56,  Bai, ezke horta jo behar nu nintendoa gure garaien baiontza moda baino berriz ere bueltaude beste formatu batzutan ere ez.
+343.56, 358.56,  Bai, bai, bai, bai, gainerabun arrakasta izan du nintendo switchak kontzeptu portatil hori nolabaitere etxean eta pantaila handian telebistan jokatzeko ere kontsola hibrido batean bilakatu duelako, hala ere, onartuko dugu bideojoko zaleenek playstation edo xboxera batez ere azken urteetan jotzen dutela, eta hori zergatik badaude arrazoi ezberdin Google Estadia omentzen Googleen ustez eta baita aditu batzuen esanetan, bideojokoaren industria eta bideojokoetara jokatzekoera aldatuko zuen plataforma.
+358.56, 362.56,  Baino plataforma zelburu zeuken edo zer zeuken berezia.
+362.56, 380.88, Google-ek sortu zuen Google Estadia berak bakarrik saltzen zuen mando bat fisikoki, eskuratu genezakin gauza bakarra zen Google Estadiaren mandoa, nahiz eta edozein Bluetooth mando erosita ere joka genezakeen, gure pfean, gure ordenagailuan, gure Windows-ean.
+380.88, 398.60, Eta Google Stadia-ke proposatzen zuena zen hodeiaren bidez jokatzea joko guztietara, hau da, edozein plataformetatik, tabletetik, mugikorretik edo gure Mac edo Windowsetik jolastea ezer deskargatu gabe nahi genituen joko guztietara.
+398.60, 403.92,  Guztiak osago gogolak zeuzken badanen beste enpresa ohitako joku ohitara sarrerara?
+403.92, 411.92, Aber, arazo batzagoenor, eta justu pesaten ari zeranaren ondorioz itxi zuten duela gutxi google-estadia.
+411.92, 417.92,  Kontua zen, bai, dena hodeitik, dena online, ez zen nuen ezer deskargatu behar.
+417.92, 419.92,  Baina sarrera konektatuta hain bartzinen etengabe, ez?
+419.92, 432.32, Sarrera konektatuta etengabe, internet onarekin, noski, horregia da, abantaila asko zituela, besteak beste, mila bostehun, bi mila euro balio dituen PC Gamer roiek ezkenituelako behar...
+432.32, 444.32, Baina kontua zen eskatzen zuen Google Estadiak arpidetza bat, besterik gabe, Google Estadia aukitzeagatik arpidetza bat eta ondoren joko bakoitza ordaintzea, irurogei, laurogei, laurogeita, marregorio.
+444.32, 446.32,  Ordun tranpa zeuken, pixkat.
+446.32, 453.32, Zen pixka bat hardware-gabe hau da kontsolaregabe dena hodeitik jolastea baino ordainduta joko bakoitza eta gainera harpidatza bat.
+453.32, 475.04, Eta zer gertatu zen ba XBox Microsoften matriza iritsi zela, Google Estadiaren kontzeptua nolabait ere hartu eta horri forma berri bat eman zioten eta esan zuten, baina, hain modan daude Netflix, HBO, Disney Plus eta horrelako plataformak baguk sortuko du, lehenengo Netflix-a baina bideojokoena.
+475.04, 484.04, Zeintzen kontua edo zein da kontua, gainpass xboxen gainpassarena, bertan arpidetza bat bakarrik, ordaindu behar daukagula.
+484.04, 488.04,  Ordon kasuontan arpidetza eta gero joku bakoitzagatik ez ezu, ordaindu beharrez.
+488.04, 489.04,  Oridan netflix bezala.
+489.04, 498.04, Bai, Netflix bezala eta bestea izango zen, bai, zerbaitekin konparatzeagatik, Amazon Prime, badarela pelikula batzuk suko da ino baldituzunak edo alkilara.
+498.04, 505.04,  Orida, orida, Google-en nahi zuen, Netflix-en hemezortzi eurak ordaintzea eta ondoren filmak ikusteagatik ordaintzea beste...
+505.04, 507.04,  eta jendeko ordaintzen zon hori.
+507.04, 510.12,  Baez, horregatik, itxi dute.
+510.12, 515.12, Eta gaur egun ba Xbox Game Pass da jaun eta jabe, eta kontua zein da jolastuan ezakeela, bieratara bat deskarratuta jokoa gure xboxera, gure bezera, gure makera, edo bestela gure tablet eta mugikorretara, edo bestela hodeitik ere bai, internet konexiona eta ez da deskarratu gabe, horrele ari gara aurrestean ordenagailu eta kontsola garesti hauen badiru kop Google-ek plante auzona, baino forma hobego bat eman zionez.
+515.12, 537.76, Bai, forma hobea, merkeagoa eta, azkenean, bideojokoen zaleak direnak oso eskizitoak dira, hodeian jokatuta bideojokoetara ba, moteldu egiten da jokoa, multiplataforman ari bagara gure lagunekin txateatzen eta, ba, klaro, bat-batean konexioa gurea motelagoa balin bada, agian bi tiroak jo dizkigute eta...
+537.76, 545.36, Bai, ulertze atezan hazuna, gaine hauek ibiltzen die irabazi nahien eta dena ondo eta, buna bestela, segure aski asko haserretu ingodien.
+545.36, 554.16,  Oso lehiakorra da, orduan, baina gira zenbat aldatu den, bere garaian, gaineboyak, gaineboy, gaineboy advance, playstation, ezepe...
+554.16, 556.96,  Nik inoiz ez eteuki gaineboya, marginau.
+556.96, 562.36, Ezea? Boneske, orain, duela urte gutxi konturatu nintzen hil izena, zea?
+562.36, 567.96,  Gameboy, mutilei bakarrik zuzendutako kontsola. Puff.
+567.96, 590.96, Hasier ba gauza da konfesa behar dizut. Elia da anaizela oso kontsola zalea izan, baina mugikorretan jokuk agertzen hasi zien garai horretan dexente jolasten on eta esandeke pixkat engantxao eta dena e nintzela. Zuk jolastu izanezu, deskargatu izan dituzu mobiletan jokuk?
+590.96, 600.42,  Bai, egiazan jokatu izan det baino gehiago kontsoletan, eh, baino, badakizuna ez izan zen nire ustez inflexio puntu bat konfinamendua, pandemia.
+600.42, 603.50,  Bada, bai, ez erdendazun oso aspertuta eta dena eman denzion.
+603.50, 604.58,  Bai, eta...
+604.58, 606.30,  Akasu hontan, bideojokoei ere.
+606.30, 611.30, Badakabadakadakadakadakadakadakadakadakadakadakadakadakadakadakadakadakadakadakadakadakadakadakadakadakadakadakadakadakadakadakadakadakadakadakadakadakadakadakadakadakadakadakadakadakadakadakadakadakadakadakadakadakadakadakadakadakadakadakadakadakadakad esango nukena datuak ikusita askoz ere errentagarriagoa dena ekonomikoki.
+611.30, 626.30,  Baiez, azkenen zuk eskuratzen dituzu dohainik, baina gero badauke horrek bere tranparez eta aplikazio askotan bezala, gero barrun baizkaintzen dizkizute arpidetzak edo dirua jarri behar dezu badazerbaiten truk.
+626.30, 627.30,  Nekor daiteen truk.
+627.30, 628.30,  Nekor daite ordaindu ez du?
+628.30, 629.30,  Ez.
+629.30, 630.30,  Ezer ez?
+630.30, 631.30,  Enaiz horta iritsi.
+631.30, 643.30,  Nik ordaindu ditut, adibidez, minecrafa bai deskargatu nuela bere garaian tableterako, eta hor, zuzenea begira hamabost euro ordaindu behar ziren aplikazioa jaisteko.
+643.30, 656.54, Baina barruko erosketa horietan eta, bueno, pandemian Clash Royale-en onartzen det barajaren bate do, kofrearen bat erosi detela, baina, baina ez bestela, ezta bereziki...
+656.54, 670.90, Eta zairitzea eguzu arren ingurun, ordun, zuerosteaz bazenenda, benetan ikusten den zubehar hori dirua gastatzeko hortan eta zerbaiten truk, ez, kasu hontan bideojokutan ikusten den tela zeoze bat zebuntu arte aportatzen ditonek, ez?
+670.90, 671.90,  Nahiz eta askotan pentsatzen dagun, joe, mugikorretarako aplikazio doakorietako batean nork ordainduko du, ez, zerbitzu pertsonai edo jokatzeko modu esklusibo batengatik, ba, haizun, azkenengo hamarkadetan ehuneko hirurehun, igo da industria hau konkretuki, mugikorretarako bideoikoen industria, beraz, jendea badagor, bere kredituHori dabaie.
+671.90, 684.90,  lotuta baino haien erabiltzen teknologia eta geroz eta kontzeptu desberdinago kezkaintzen dituzten jokutanez, balen askotan zenba erabiltzen zenungailua eta orsartzen zenungokoa baino ez ke gaur egun dauzkezu aukerain, zabalak, bideojokon munduontanez, baina azkeren ja nik uste bilak udala ere, industrian islatzen den bezala ez, sortzen don diru kopuruakinBai eta uste dugu gaur egun zara dena asmatua dagoela sektore honetan, baina gurean kukita kafean izan genituen Apple Vision Pro-ak, imajinatu, zer etorriko den edo zer den iristear horrelako gailuekin, errealitate birtuela errealitatea areagotua... guzti hori benetan aplikatzen hasten denean Facebook hasi da bere meta-quest biekin, pixka bat bideojoko batBaina, oraindik dena oso beta fasean dago, baina nik uste dute gaur egun zuetan ibizela bideojokozaleak eskarenak ere etorkizunean iritsiko garela izatera.
+684.90, 690.30,  eta audio plataforma denetan aurkituko duzue cookie eta kafea, arpidetu eta lagundu zabaltzen.
